@@ -184,21 +184,12 @@ function App() {
                   size="large"
                   classname={classes.button}
                 >
-                  <a id="modules" target="_blank" href="https://www.figma.com/file/Ujg7sfaMWBybSkfSfK3Xf9/Finance-Course">Open Course Modules</a>
+                  <a id="modules" target="_blank" href="https://www.figma.com/proto/Ujg7sfaMWBybSkfSfK3Xf9/Finance-Course?node-id=1%3A2&scaling=min-zoom">Open Course Modules</a>
                 </ColorButton>
               </CardContent>
             </Card>
           </div>
         </div>
-        {/* <p>
-          Test2
-        </p>
-        <p>
-          Test3
-        </p>
-        <div>
-          hello
-        </div> */}
       </body>
     </div>
   );
