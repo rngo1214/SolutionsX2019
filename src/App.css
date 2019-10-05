@@ -1,22 +1,101 @@
 .App {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: #058659;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vh;
+  width: 40vh;
+  /* flex: 1; */
+}
+
+.Title {
+  font-size: 10vh;
+  color: #ffffff;
+  padding: 0px;
+  height: 8vh;
+}
+
+.Title2 {
+  font-size: calc(10px + 5vmin);
+}
+
+.Title3 {
+  font-size: 8vh;
+  color: #ffffff;
+  padding: 0px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  /* min-height: 100vh; */
+  /* margin-top: 5vh; */
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: #058659;
+  height: 10vh;
+}
+
+.App-link {
+  color: #058659;
+}
+
+.Body {
+  flex: 15;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+  background-color: #058659;
+}
+
+.Info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.Card-wrapper {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: 5vh;
+  width: 150vh;
+}
+
+.Text {
+  font-size: calc(10px + 2vmin);
+}
+
+.Sign {
+  height: 10vh;
+  margin-bottom: 30vh;
+}
+
+a:link#modules {
+  color: #058659;
+  text-decoration: none;
+}
+
+a:visited#modules {
+  color: #058659;
+  text-decoration: none;
+}
+
+a:hover#modules {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contain {
+  /* display: flex;
+  flex-direction: column; */
 }

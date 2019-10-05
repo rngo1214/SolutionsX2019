@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap);
+
+.TopHeader {
+  background-color: #4c5854;
+  height: 7.2vh;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: center; */
+  align-content: center;
+  margin-top: -2.2vh;
+  margin-bottom: -20vh;
+}
+
+#NavbarLeft {
+  display: inline-block;
+  list-style-type: none;
+  float: left;
+}
+
+#NavbarRight {
+  display: inline-block;
+  list-style-type: none;
+  float: right!important;
+}
+
+#NavItem {
+  display: inline-block;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 35px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: relative;
+
+  font: roboto;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  font-family: roboto;
+}
+
+#College {
+  background-color: #ff0000;
+
+  display: inline-block;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 5vh;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: relative;
+
+  font: roboto;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  font-family: roboto;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#SignIn {
+  background-color: #058659;
+
+  display: inline-block;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 5vh;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: relative;
+
+  font: roboto;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  font-family: roboto;
+}
